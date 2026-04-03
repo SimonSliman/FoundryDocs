@@ -210,12 +210,12 @@ CB-2417,KFC LATAM,7600.00,Card not present fraud,2026-03-27,4521,MXN
 CB-2418,Clic Air,1100.00,Amount differs,2026-03-28,9934,USD`;
 
 const CB_CATS={
+  cnp_fraud:{label:"Card Not Present Fraud",color:"red",kw:["card not present","cnp","online fraud","fraude en línea","remote"]},
   unauthorized:{label:"Unauthorized Transaction",color:"red",kw:["unauthorized","not authorized","no autorizada","fraud","fraude","stolen","robada"]},
   duplicate:{label:"Duplicate Charge",color:"yellow",kw:["duplicate","duplicat","doble cargo","double","duplicada"]},
   not_received:{label:"Product/Service Not Received",color:"red",kw:["not received","no recibido","never received","undelivered","no entregado"]},
   amount:{label:"Amount Differs",color:"yellow",kw:["amount","monto","differ","wrong amount","monto incorrecto","overcharge"]},
   subscription:{label:"Subscription Not Cancelled",color:"blue",kw:["subscription","suscripcion","recurring","recurrente","cancel"]},
-  cnp_fraud:{label:"Card Not Present Fraud",color:"red",kw:["card not present","cnp","online fraud","fraude en línea","remote"]},
   other:{label:"Other / Unclassified",color:"blue",kw:[]},
 };
 
